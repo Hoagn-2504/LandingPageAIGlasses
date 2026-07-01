@@ -40,3 +40,30 @@ export const features = [
     description: "Built-in privacy indicators keep your data secure.",
   },
 ];
+
+export const specifications = [
+  {
+    value: "48MP",
+    label: "AI Camera",
+  },
+  {
+    value: "4K",
+    label: "Micro OLED Display",
+  },
+  {
+    value: "18H",
+    label: "Battery Life",
+  },
+  {
+    value: "68g",
+    label: "Ultra-light Weight",
+  },
+  {
+    value: "Bluetooth 5.4",
+    label: "Wireless Connectivity",
+  },
+  {
+    value: "Wi-Fi 7",
+    label: "High-speed Network",
+  },
+];

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="flex min-h-screen items-center">
+    <section id="hero" className="py-24">
       <div className="container grid gap-16 md:grid-cols-2">
         <div className="flex flex-col justify-center">
           <p className="mb-4 text-blue-400 uppercase">AI Powered</p>
