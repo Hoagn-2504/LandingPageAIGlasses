@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 z-50 w-full">
       <div className="container flex h-20 items-center justify-between">
-        <h1 className="text-2xl font-bold">NOVA</h1>
+        <h1 className="text-2xl font-bold">IRIS</h1>
 
         <nav className="hidden gap-8 md:flex">
           <a href="#features">Features</a>
