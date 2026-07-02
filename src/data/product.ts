@@ -67,3 +67,22 @@ export const specifications = [
     label: "High-speed Network",
   },
 ];
+
+export const gallery = [
+  {
+    src: "/images/gallery/gallery-1.png",
+    title: "AI Vision",
+  },
+  {
+    src: "/images/gallery/gallery-2.png",
+    title: "Remote Meeting",
+  },
+  {
+    src: "/images/gallery/gallery-3.png",
+    title: "Travel Anywhere",
+  },
+  {
+    src: "/images/gallery/gallery-4.png",
+    title: "Everyday Productivity",
+  },
+];

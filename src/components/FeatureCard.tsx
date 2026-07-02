@@ -20,13 +20,16 @@ export default function FeatureCard({ icon: Icon, title, description }: Props) {
       hover:-translate-y-2
       hover:border-blue-500/40
       hover:bg-white/10
+      text-center
       "
     >
-      <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-600/20">
+      {/* Container của Tiêu đề: Đã xóa container hình tròn xung quanh Icon */}
+      <div className="mb-4 flex items-center justify-center gap-4">
+        {/* Sửa: Đặt Icon trực tiếp, chỉ cần căn chỉnh kích thước và màu sắc */}
         <Icon className="h-7 w-7 text-blue-400" />
-      </div>
 
-      <h3 className="mb-3 text-xl font-semibold">{title}</h3>
+        <h3 className="text-xl font-semibold leading-none">{title}</h3>
+      </div>
 
       <p className="leading-7 text-slate-400">{description}</p>
     </div>
