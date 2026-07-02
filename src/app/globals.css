@@ -24,6 +24,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   background: var(--background);
   color: var(--foreground);
   font-family: Inter, sans-serif;
@@ -34,18 +35,59 @@ section {
 }
 
 .container {
+  width: 100%;
   max-width: 1200px;
   margin: auto;
-  padding: 0 24px;
-}
-
-.card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 24px;
-  backdrop-filter: blur(20px);
+  padding-inline: 24px;
 }
 
 button {
   cursor: pointer;
+}
+
+/* ========================= */
+/* Reusable Classes */
+/* ========================= */
+
+.card,
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #38bdf8, #2563eb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ========================= */
+/* Hero */
+/* ========================= */
+
+.hero-bg {
+  background:
+    radial-gradient(circle at top, rgba(37, 99, 235, 0.25), transparent 45%),
+    radial-gradient(
+      circle at bottom right,
+      rgba(56, 189, 248, 0.12),
+      transparent 35%
+    ),
+    #020617;
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+.glow {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(120px);
 }

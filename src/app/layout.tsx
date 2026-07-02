@@ -7,7 +7,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Landing Page AI Glasses",
+  title: "Iris AI Glasses",
   description: "The Future Is In Your Vision",
 };
 
