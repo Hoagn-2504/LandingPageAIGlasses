@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "augmented reality",
     "AI assistant",
   ],
-  authors: [{ name: "IRIS Team" }],
+  authors: [{ name: "Hoang" }],
   openGraph: {
     title: "IRIS AI Glasses — The Future Is In Your Vision",
     description:
