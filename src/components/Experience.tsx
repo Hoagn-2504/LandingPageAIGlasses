@@ -14,7 +14,10 @@ export default function Experience() {
 
               <h2 className="mt-5 text-4xl font-black md:text-5xl md:leading-tight">
                 AI That Moves
-                <span className="gradient-text block"> With You</span>
+                <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+                  With You
+                </span>
               </h2>
             </div>
           </div>

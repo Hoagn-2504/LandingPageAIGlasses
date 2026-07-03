@@ -64,7 +64,7 @@ export default function BentoCard({
           {description}
         </p>
         <div className="mt-auto pt-8">
-          <div className="h-1 w-12 rounded-full bg-cyan-400 transition-all duration-500 group-hover:w-20" />
+          <div className="h-1 w-0 rounded-full bg-cyan-400 transition-all duration-500 group-hover:w-150" />
         </div>
       </div>
     </div>

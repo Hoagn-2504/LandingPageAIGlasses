@@ -46,7 +46,7 @@ export default function Navbar() {
             ))}
           </nav>
 
-          <button className="group relative flex h-11 w-40 items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-sm font-semibold text-white shadow-[0_0_25px_rgba(37,99,235,.35)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_10px_35px_rgba(99,102,241,.55)] lg:w-20">
+          <button className="group relative flex h-10 w-40 items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-sm font-semibold text-white shadow-[0_0_25px_rgba(37,99,235,.35)] transition duration-300 hover:scale-105 hover:shadow-[0_10px_35px_rgba(99,102,241,.55)] lg:w-20">
             <span className="relative z-10">Buy</span>
             <div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition duration-700 group-hover:translate-x-full" />
           </button>

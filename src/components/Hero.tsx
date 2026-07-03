@@ -12,11 +12,10 @@ export default function Hero() {
       <div className="container relative z-10 grid items-center gap-16 lg:grid-cols-[1.05fr_.95fr]">
         <div className="flex flex-col gap-8 md:gap-10">
           <h1 className="max-w-xl text-5xl font-black leading-tight md:text-7xl">
-            The Future Is
+            The Future Is In
             <br />
-            In Your{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-              Vision
+              Your Vision
             </span>
           </h1>
           <p className="max-w-lg text-lg leading-8 text-slate-400">

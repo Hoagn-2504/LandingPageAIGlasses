@@ -5,7 +5,6 @@ export default function Specifications() {
     <section id="specs" className="py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col gap-12 md:gap-16">
-          {/* Heading */}
           <div className="flex w-full flex-col items-center text-center">
             <div className="max-w-2xl">
               <p className="mb-3 text-base font-semibold uppercase tracking-[0.4em] text-cyan-400">
@@ -23,8 +22,6 @@ export default function Specifications() {
               </p>
             </div>
           </div>
-
-          {/* Specifications Grid */}
           <div className="grid w-full gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {specifications.map((item) => (
               <div

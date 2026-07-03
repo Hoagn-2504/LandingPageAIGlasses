@@ -4,6 +4,7 @@ import Features from "@/components/features/Features";
 import Experience from "@/components/Experience";
 import Specifications from "@/components/Specifications";
 import Gallery from "@/components/Gallery";
+import Newsletter from "@/components/Newsletter";
 import ScrollToTop from "@/components/ScrollToTop";
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
       <Experience />
       <Specifications />
       <Gallery />
-
+      <Newsletter />
       <ScrollToTop />
     </>
   );

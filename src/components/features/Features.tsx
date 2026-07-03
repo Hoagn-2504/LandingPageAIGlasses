@@ -13,8 +13,9 @@ export default function Features() {
               </p>
 
               <h2 className="mt-5 text-4xl font-black md:text-5xl md:leading-tight">
-                Everything You Need,
-                <span className="gradient-text block">
+                Everything You Need
+                <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
                   Right Before Your Eyes
                 </span>
               </h2>

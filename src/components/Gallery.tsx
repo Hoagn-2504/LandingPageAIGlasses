@@ -11,7 +11,13 @@ export default function Gallery() {
               <p className="mb-3 text-base font-semibold uppercase tracking-[0.4em] text-cyan-400">
                 Gallery
               </p>
-              <h2 className="mb-4 text-4xl font-bold">Experience IRIS</h2>
+              <h2 className="mb-4 text-4xl font-bold">
+                Experience
+                <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+                  IRIS
+                </span>
+              </h2>
               <p className="text-slate-400">
                 Discover how IRIS AI Glasses seamlessly fit into your work,
                 travel and everyday life.
