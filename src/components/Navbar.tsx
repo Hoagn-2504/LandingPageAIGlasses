@@ -236,7 +236,7 @@ export default function Navbar() {
                 relative
                 mt-2
                 flex
-                h-12
+                h-8
                 w-30
                 items-center
                 justify-center
