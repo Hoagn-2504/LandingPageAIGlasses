@@ -34,6 +34,8 @@ export default function Gallery() {
                     alt={item.title}
                     width={800}
                     height={600}
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    quality={75}
                     className="
                       h-[420px]
                       w-full

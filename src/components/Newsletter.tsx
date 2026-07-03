@@ -76,7 +76,6 @@ export default function Newsletter() {
             </div>
           </form>
 
-          {/* Success */}
           {submitted && (
             <div className="w-full max-w-xl rounded-full border border-emerald-500/30 bg-emerald-500/10 px-6 py-4 text-center text-emerald-300">
               🎉 Thank you! Your request has been received successfully.

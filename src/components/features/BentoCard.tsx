@@ -33,7 +33,8 @@ export default function BentoCard({
           alt={title}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
           fill
-          priority
+          loading="lazy"
+          quality={75}
           className="
             object-cover
             object-center

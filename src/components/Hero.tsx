@@ -23,7 +23,6 @@ export default function Hero() {
             creativity with seamless real-time assistance.
           </p>
           <div className="flex flex-wrap gap-4">
-            {/* Primary Button */}
             <button className="group relative flex h-12 w-44 items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 font-bold shadow-[0_0_30px_rgba(37,99,235,.4)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_10px_40px_rgba(99,102,241,.6)] sm:h-14 sm:w-45">
               <span className="z-10 flex items-center gap-2 text-sm text-white sm:text-base">
                 Buy Now
@@ -69,12 +68,11 @@ export default function Hero() {
               </p>
             </div>
 
-            {/* Card 3: AI Translation (Hoặc thay nội dung tùy ý) */}
             <div className="glass flex flex-col items-center justify-center rounded-2xl border border-white/10 bg-white/5 p-4 text-center transition-all hover:-translate-y-1 hover:bg-white/10 sm:p-5">
               <div className="flex items-center gap-2">
                 <Globe className="text-indigo-400" size={24} />
                 <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400 sm:text-3xl">
-                  50+
+                  120+
                 </h3>
               </div>
               <p className="mt-1 text-xs font-medium text-slate-400 sm:text-sm">
@@ -92,10 +90,11 @@ export default function Hero() {
           <div className="relative z-10 h-[300px] w-[300px] overflow-hidden rounded-full border border-white/10 bg-white/5 shadow-[0_20px_50px_rgba(37,99,235,0.4)] backdrop-blur-sm transition-all duration-700 ease-out hover:scale-105 hover:border-blue-400/50 hover:shadow-[0_20px_70px_rgba(37,99,235,0.6)] sm:h-[350px] sm:w-[350px] md:h-[450px] md:w-[450px]">
             <Image
               src="/images/glassesAI.png"
-              alt="Nova AI Glasses"
-              sizes="(max-width: 1024px) 100vw, 50vw"
+              alt="IRIS AI Glasses — Smart wearable technology"
+              sizes="(max-width: 640px) 300px, (max-width: 768px) 350px, 450px"
               fill
               priority
+              quality={75}
               className="object-cover transition-transform duration-700 hover:scale-110"
             />
           </div>

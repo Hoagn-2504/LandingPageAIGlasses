@@ -25,10 +25,12 @@ export default function Experience() {
             <div>
               <Image
                 src="/images/experience.png"
-                alt="Experience"
+                alt="IRIS AI Glasses experience — AI assistant in action"
                 width={700}
                 height={900}
-                priority
+                loading="lazy"
+                quality={75}
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="rounded-[40px] shadow-2xl"
               />
             </div>

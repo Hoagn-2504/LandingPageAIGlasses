@@ -45,9 +45,6 @@ button {
   cursor: pointer;
 }
 
-/* ========================= */
-/* Reusable Classes */
-/* ========================= */
 
 .card,
 .glass {
@@ -64,9 +61,6 @@ button {
   color: transparent;
 }
 
-/* ========================= */
-/* Hero */
-/* ========================= */
 
 .hero-bg {
   background:

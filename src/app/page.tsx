@@ -13,12 +13,15 @@ export default function Home() {
     <>
       <Navbar />
 
-      <Hero />
-      <Features />
-      <Experience />
-      <Specifications />
-      <Gallery />
-      <Newsletter />
+      <main>
+        <Hero />
+        <Features />
+        <Experience />
+        <Specifications />
+        <Gallery />
+        <Newsletter />
+      </main>
+
       <Footer />
       <ScrollToTop />
     </>

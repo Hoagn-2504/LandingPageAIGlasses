@@ -82,7 +82,7 @@ export default function Navbar() {
             </div>
 
             <div>
-              <h1
+              <span
                 className="
                   font-extrabold
                   tracking-wide
@@ -94,7 +94,7 @@ export default function Navbar() {
                 "
               >
                 IRIS
-              </h1>
+              </span>
 
               <p
                 className="
@@ -112,7 +112,6 @@ export default function Navbar() {
             </div>
           </a>
 
-          {/* Desktop Menu */}
           <nav className="hidden md:flex items-center lg:gap-12 md:gap-8">
             {menuItems.map((item) => (
               <a
@@ -197,7 +196,6 @@ export default function Navbar() {
               {open ? <X size={20} /> : <Menu size={20} />}
             </button>
           </div>
-          {/* Mobile Menu */}
           <div
             className={`absolute right-0 top-[calc(100%+12px)] z-50 w-45 overflow-hidden rounded-3xl border border-white/10 bg-slate-900/95 shadow-2xl backdrop-blur-xl transition-all duration-300 md:hidden ${
               open

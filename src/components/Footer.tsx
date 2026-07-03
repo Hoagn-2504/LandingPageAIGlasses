@@ -31,12 +31,10 @@ const socials = [
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden border-t border-white/10 bg-slate-950">
-      {/* Background Subtle Glow */}
       <div className="absolute left-1/2 top-0 h-[300px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-500/10 blur-[120px]" />
 
       <div className="container relative z-10 mx-auto px-6 py-24">
         <div className="grid gap-16 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr] lg:gap-24">
-          {/* Brand */}
           <div>
             <h2 className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-3xl font-black tracking-[0.2em] text-transparent">
               IRIS
