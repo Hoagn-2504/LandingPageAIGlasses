@@ -5,6 +5,7 @@ import Experience from "@/components/Experience";
 import Specifications from "@/components/Specifications";
 import Gallery from "@/components/Gallery";
 import Newsletter from "@/components/Newsletter";
+import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Specifications />
       <Gallery />
       <Newsletter />
+      <Footer />
       <ScrollToTop />
     </>
   );
