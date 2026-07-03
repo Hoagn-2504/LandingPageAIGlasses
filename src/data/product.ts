@@ -13,6 +13,7 @@ export const features = [
     title: "AI Assistant",
     description: "Instant answers, summaries and intelligent recommendations.",
     icon: Bot,
+    image: "/images/features/ai-assistant.png",
     size: "large",
   },
   {
@@ -20,6 +21,7 @@ export const features = [
     title: "Live Translation",
     description: "Translate conversations in over 120 languages.",
     icon: Languages,
+    image: "/images/features/live-translation.png",
     size: "small",
   },
   {
@@ -27,6 +29,7 @@ export const features = [
     title: "18 Hours Battery",
     description: "All-day battery life for work and travel.",
     icon: BatteryCharging,
+    image: "/images/features/battery.png",
     size: "small",
   },
   {
@@ -34,6 +37,7 @@ export const features = [
     title: "48MP AI Camera",
     description: "Capture every moment with computational photography.",
     icon: Camera,
+    image: "/images/features/camera.png",
     size: "wide",
   },
   {
@@ -41,6 +45,7 @@ export const features = [
     title: "Privacy",
     description: "Built-in indicators and encrypted processing.",
     icon: ShieldCheck,
+    image: "/images/features/privacy.png",
     size: "wide",
   },
   {
@@ -48,10 +53,10 @@ export const features = [
     title: "Gesture Control",
     description: "Navigate naturally using intuitive hand gestures.",
     icon: Hand,
+    image: "/images/features/gesture-control.png",
     size: "wide",
   },
 ];
-
 export const experiences = [
   {
     step: "01",

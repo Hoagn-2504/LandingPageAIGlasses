@@ -1,9 +1,11 @@
 import { LucideIcon } from "lucide-react";
 
 type Props = {
-  icon: LucideIcon;
   title: string;
   description: string;
+  icon: LucideIcon;
+  image: string;
+  size: string;
 };
 
 export default function FeatureCard({ icon: Icon, title, description }: Props) {
