@@ -8,18 +8,16 @@ export default function Experience() {
         <div className="flex flex-col gap-16">
           <div className="flex w-full justify-center mb-20">
             <div className="flex flex-col items-center text-center">
-              <p className="text-cyan-400 uppercase tracking-[0.4em]">
+              <p className="mb-3 text-base font-semibold uppercase tracking-[0.4em] text-cyan-400">
                 Experience
               </p>
 
-              <h2 className="mt-5 text-5xl font-black">
+              <h2 className="mt-5 text-4xl font-black md:text-5xl md:leading-tight">
                 AI That Moves
-                <span className="gradient-text block mt-2"> With You</span>
+                <span className="gradient-text block"> With You</span>
               </h2>
             </div>
           </div>
-
-          {/* Khối Grid: Đã có items-center để các bước căn giữa theo chiều dọc so với ảnh */}
           <div className="grid gap-20 lg:grid-cols-2 items-center">
             <div>
               <Image

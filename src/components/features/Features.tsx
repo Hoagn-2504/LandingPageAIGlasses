@@ -8,14 +8,13 @@ export default function Features() {
         <div className="flex flex-col gap-16">
           <div className="flex w-full justify-center mb-20">
             <div className="flex max-w-3xl flex-col items-center text-center">
-              <span className="text-sm uppercase tracking-[0.4em] text-cyan-400">
+              <p className="mb-3 text-base font-semibold uppercase tracking-[0.4em] text-cyan-400">
                 Features
-              </span>
+              </p>
 
               <h2 className="mt-5 text-4xl font-black md:text-5xl md:leading-tight">
                 Everything You Need,
                 <span className="gradient-text block">
-                  {" "}
                   Right Before Your Eyes
                 </span>
               </h2>

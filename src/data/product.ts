@@ -74,30 +74,37 @@ export const experiences = [
     description: "Shoot stunning photos and videos with AI enhancement.",
   },
 ];
+
 export const specifications = [
   {
     value: "48MP",
     label: "AI Camera",
-  },
-  {
-    value: "4K",
-    label: "Micro OLED Display",
+    description: "Capture every moment with computational photography.",
   },
   {
     value: "18H",
     label: "Battery Life",
+    description: "Power through your day with intelligent battery management.",
   },
   {
-    value: "68g",
-    label: "Ultra-light Weight",
+    value: "65g",
+    label: "Ultra Light",
+    description: "Designed for maximum comfort during extended wear.",
   },
   {
-    value: "Bluetooth 5.4",
-    label: "Wireless Connectivity",
+    value: "OLED",
+    label: "Micro Display",
+    description: "Crystal-clear visuals with vivid colors and sharp details.",
   },
   {
-    value: "Wi-Fi 7",
-    label: "High-speed Network",
+    value: "Wi-Fi 6",
+    label: "Connectivity",
+    description: "Fast wireless performance with low latency.",
+  },
+  {
+    value: "IP54",
+    label: "Water Resistant",
+    description: "Built to withstand everyday splashes and dust.",
   },
 ];
 

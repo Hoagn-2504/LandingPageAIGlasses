@@ -8,12 +8,12 @@ export default function Gallery() {
         <div className="flex flex-col gap-16">
           <div className="flex w-full flex-col items-center text-center gap-16">
             <div className="max-w-2xl">
-              <p className="mb-3 uppercase tracking-widest text-blue-400">
+              <p className="mb-3 text-base font-semibold uppercase tracking-[0.4em] text-cyan-400">
                 Gallery
               </p>
-              <h2 className="mb-4 text-4xl font-bold">Experience Iris</h2>
+              <h2 className="mb-4 text-4xl font-bold">Experience IRIS</h2>
               <p className="text-slate-400">
-                Discover how Iris AI Glasses seamlessly fit into your work,
+                Discover how IRIS AI Glasses seamlessly fit into your work,
                 travel and everyday life.
               </p>
             </div>
